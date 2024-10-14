@@ -141,6 +141,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'clear') {
            </div>
            <div id="" class=""> 
     <h1>Shopping Cart</h1>
+    
 
     <?php if (isset($_SESSION['cart']) && count($_SESSION['cart']) > 0) { ?>
         <table border="1">
