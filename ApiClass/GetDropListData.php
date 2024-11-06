@@ -42,11 +42,8 @@ class GetDropListData{
         $SqlQuery ="Select subcategory2_id ,subcategory1_id ,name from sub_category2";
         
         $result="";
-        
-        
-      //  if ($id != null){
           $SqlQuery = $SqlQuery." where subcategory1_id = ".$id;  
-     // }
+     
         $SqlResponce = ConnectionDB::SelectQuery($SqlQuery);
         if ($SqlResponce->num_rows > 0) {
             foreach($SqlResponce as $SubCatrow):

@@ -11,12 +11,12 @@
 
   $conn= ConnectionDB::MyConn();
 
-    // Check connection
+    
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
 
-    // Fetch photos from database
+    
     $sql = "SELECT * FROM advertisements";
     $result = $conn->query($sql);
     $photos = [];

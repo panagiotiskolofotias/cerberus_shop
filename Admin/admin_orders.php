@@ -7,11 +7,6 @@ if (!isset($_SESSION)) { session_start();}
          header("Location: ../Index.php");
          exit();
    }
-  
-   //$query = "SELECT * FROM orders ORDER BY order_date DESC";
-   //$result = $conn->query($query);
-   //$query = "SELECT * FROM orders ORDER BY order_date DESC";
-   //$result = $conn->query($query);
    ?>
 
 <!DOCTYPE html>

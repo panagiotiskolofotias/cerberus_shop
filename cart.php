@@ -4,7 +4,7 @@ require_once("ApiClass/ConnectionDB.php");
 
 
 if (isset($_GET['action']) && $_GET['action'] == "add") {
-    $id = $_GET['product_id']; // Updated to match the change in the form
+    $id = $_GET['product_id']; 
     $quantity = $_POST['quantity'];
     $SqlResponce = ConnectionDB::SelectQuery("select  * from products WHERE product_id =".$id);
     if ($SqlResponce->num_rows > 0) {

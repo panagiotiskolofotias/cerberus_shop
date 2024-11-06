@@ -63,7 +63,6 @@ if (isset($_FILES['images']) && $_FILES['images']['error'] == 0) {
    }  catch (Exception $ex){
        $message = $ex->getMessage();
    }
- ///  header('location:Products.php');
 } 
 
    $Oldname = "";
