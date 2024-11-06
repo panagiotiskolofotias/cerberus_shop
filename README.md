@@ -19,3 +19,8 @@ Technology Stack
 Frontend: [List the technologies,HTML, CSS.]
 Backend: [List the technologies,PHP.]
 Database: [List the technologies,MySQL.]
+
+
+Database 
+Username : admin
+password : 123
